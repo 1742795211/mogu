@@ -1,0 +1,15 @@
+{
+  "usingComponents": {
+    "y-swiper": "../../components/y-swiper/y-swiper",
+
+    "y-baseinfo":"./child/y-baseinfo/y-baseinfo",
+    "y-shopinfo": "./child/y-shopinfo/y-shopinfo",
+    "y-detailinfo": "./child/y-detailinfo/y-detailinfo",
+    "y-paraminfo": "./child/y-paraminfo/y-paraminfo",
+    "y-commentinfo": "./child/y-commentinfo/y-commentinfo",
+    "y-recommendinfo": "./child/y-recommendinfo/y-recommendinfo",
+    "y-bouttombar": "./child/y-bouttombar/y-bouttombar"
+
+    
+  }
+}

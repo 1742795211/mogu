@@ -1,0 +1,22 @@
+<!--pages/profile/child/userinfo/userinfo.wxml-->
+<view id="user-info">
+  <a href="#" class="clear-fix">
+    <view name="user-icon">
+      <view class="privateImage-svg left">
+        <image class="image" src="../../../../assets/profile/mogu.png"/>
+      </view>
+
+    </view>
+    <view class="login-info left">
+      <view name="user-nickname">
+        <view>登录/注册</view>
+      </view>
+      <view class="phone">
+        <view name="user-phone">暂无绑定手机号</view>
+      </view>
+    </view>
+    <view class="xianqin">
+      <image src="../../../../assets/profile/NMStubiao.png"/>
+    </view>
+  </a>
+</view>

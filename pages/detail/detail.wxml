@@ -1,0 +1,23 @@
+<!--pages/detail/detail.wxml-->
+
+
+
+
+<scroll-view   id="detail">
+    <y-swiper class="d-swiper" list="{{topImages}}"></y-swiper>
+    <y-baseinfo baseInfo="{{baseInfo}}"></y-baseinfo>
+    <y-shopinfo shopInfo="{{shopInfo}}"></y-shopinfo>
+    <y-detailinfo detailInfo="{{detailInfo}}"></y-detailinfo>
+    <y-paraminfo paramInfo="{{paramInfo}}"></y-paraminfo>
+
+    <y-commentinfo commentInfo="{{commentInfo}}"></y-commentinfo>
+
+    <y-recommendinfo recommends="{{recommends}}"></y-recommendinfo >
+    
+
+</scroll-view>
+
+<y-bouttombar bind:addcart="onAddCart"  class="y-bouttomba"></y-bouttombar >
+
+
+

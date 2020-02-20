@@ -1,0 +1,23 @@
+/* pages/cart/chidcpns/click-button/click-button.wxss */
+.icon-selector {
+    position: absolute;
+    margin: 0;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  .imagee{
+   width: 18px;
+    height: 18px;
+    position: absolute;
+    left:-2rpx;
+    top: 1rpx;
+  
+  }
+
+  .selector-active {
+    background-color: #ff8198;
+    border-color: #ff8198;
+  }

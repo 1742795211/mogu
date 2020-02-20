@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+    "y-swiper":"../../components/y-swiper/y-swiper",
+    "y-recommend": "./child/y-recommend",
+    "y-tabcontrol": "../../components/y-tabcontrol/y-tabcontrol",
+    "y-goods": "../../components/y-goods/y-goods",
+    "y-backtop": "../../components/y-backtop/y-backtop"
+
+
+
+  },
+  "navigationBarTitleText": "小蘑菇"
+}

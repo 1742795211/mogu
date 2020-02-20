@@ -1,0 +1,15 @@
+/* components/y-backtop/y-backtop.wxss */
+.backtop{
+ width: 100rpx;
+  height: 100rpx;
+}
+.backtop image{
+
+ width: 100rpx;
+height: 100rpx;
+
+
+
+
+
+}

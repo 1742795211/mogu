@@ -1,0 +1,8 @@
+<!--pages/cart/chidcpns/click-button/click-button.wxml-->
+<view>
+      <view  bindtap="{{aaa}}"     class=' icon-selector   {{isChecked ? "selector-active": " "}}'
+      
+       >
+        <image   class=".imagee" src="../../../../assets/imgs/zhengque.png" alt=""  mode=""/>
+      </view>
+</view>

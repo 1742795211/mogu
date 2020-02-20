@@ -1,0 +1,15 @@
+/* pages/detail/detail.wxss */
+
+
+
+.d-swiper swiper {
+  height: 600rpx;
+}
+.y-bouttomba{
+  background: white;
+  position: fixed;
+  bottom: 0rpx;
+  left: 0;
+  right: 0;
+
+}

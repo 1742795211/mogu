@@ -1,0 +1,84 @@
+<!--pages/cart/profile.wxml-->
+<view id="profil">
+
+  <userinfo class="Auserinfo"></userinfo>
+  <view class="account">
+    <view class="account-item">
+      <view class="number">
+        <view class="balance">0.00</view>元
+      </view>
+      <view class="account-info">我的余额</view>
+    </view>
+    <view class="account-item">
+      <view class="number">
+        <view class="balance">0</view>个
+      </view>
+      <view class="account-info">我的优惠</view>
+    </view>
+    <view class="account-item">
+      <view class="number">
+        <view class="balance">0</view>分
+      </view>
+      <view class="account-info">我的积分</view>
+    </view>
+  </view>
+
+
+
+
+  <view id="list">
+    <view class="item">
+      <view class="icon">
+        <image src="../../assets/profile/xiaoxi.png" />
+      </view>
+    </view>
+    <view class="info">我的消息</view>
+  </view>
+  <view id="list">
+
+    <view class="item">
+      <view class="icon">
+        <image src="../../assets/profile/shangcheng.png" />
+      </view>
+    </view>
+    <view class="info">积分商城</view>
+  </view>
+
+  <view id="list" class="list">
+    <view class="item">
+      <view class="icon">
+        <image src="../../assets/profile/huiyuan.png" />
+      </view>
+    </view>
+    <view class="info">会员卡</view>
+  </view>
+
+  <view id="list">
+    <view class="item">
+      <view class="icon">
+        <image src="../../assets/profile/ziliao.png" />
+      </view>
+    </view>
+    <view class="info">账户信息</view>
+  </view>
+
+  <view id="list">
+    <view class="item">
+      <view class="icon">
+        <image src="../../assets/profile/xingxing.png" />
+      </view>
+    </view>
+    <view class="info">应用版本</view>
+  </view>
+
+
+
+
+
+
+
+
+
+
+
+</view>

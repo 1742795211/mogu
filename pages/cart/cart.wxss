@@ -1,0 +1,33 @@
+/* pages/cart/cart.wxss */
+.cart{
+    height:100vh;
+    
+  }
+ 
+ .cartbar{
+    background-color:white;
+     
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 49px;
+      z-index: 1;
+      height: 40px;
+ }
+  .conten{
+    overflow: hidden;
+    position: absolute;
+   top: 0;
+    bottom: 49px;
+    left: 0;
+    right: 0;
+    background-color: #F5F5F5;
+  }
+  .cartbar{
+    position: fixed;
+
+    bottom: 0px;
+    left: 0;
+    right: 0;
+  }
+  

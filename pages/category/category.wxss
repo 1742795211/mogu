@@ -1,0 +1,22 @@
+/* pages/category/category.wxss */
+.category {
+  height: 100%;
+
+}
+
+.category .y-menu {
+  width: 30%;
+  
+  position: absolute;
+ bottom: 0rpx;
+  top: 0rpx;
+}
+
+.category .y-content {
+  width: 70%;
+ 
+  position: absolute;
+  bottom: 0rpx;
+  top: 0rpx;
+  left: 30%;
+}

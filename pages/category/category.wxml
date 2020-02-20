@@ -1,0 +1,13 @@
+<!--pages/category/category.wxml-->
+<view class='category'>
+<scroll-view  class="y-menu">
+     <y-menu categories="{{categories}}" bind:menuclick="menuClick" ></y-menu>
+</scroll-view>
+  
+
+<scroll-view class="y-content">
+  <y-content subcategories="{{categoryData[currentIndex].subcategories}}" categoryDetail="{{categoryData[currentIndex].categoryDetail}}" ></y-content>
+
+</scroll-view >
+ 
+</view>

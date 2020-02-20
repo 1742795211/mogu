@@ -1,0 +1,136 @@
+/* pages/cart/chidcpns/cart-list/cart-list.wxss */
+.cartlist{
+    width: 100%;
+    height: 200rpx;
+    background-color: #fff;
+   
+   
+    border-top: solid  7px #F5F5F5; 
+    
+}
+#shopitem {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    font-size: 0;
+   
+  
+  }
+
+  .itemselector {
+    width:10%;
+    height: 100%;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .checkbutton{
+    height: 100%;
+    position: relative;
+    top: 34px;
+    left: 10px;
+  }
+
+  .itemtitle{
+    
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .item-desc{
+  height: 20%;
+	word-break:break-all;
+	display:-webkit-box;
+	-webkit-line-clamp:2;
+	-webkit-box-orient:vertical;
+	overflow:hidden;
+  }
+
+  .itemimg {
+    position: relative;
+    float: left;
+    width:  20%;
+    height: 100%;
+    
+   
+  }
+
+  .itemimg image {
+    width: 80%;
+    height: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+
+  }
+
+  .iteminfo {
+    
+    width:60%;
+    height: 95%;
+    float: left;
+    font-size: 12px;
+    color: #333;
+    padding: 5px 10px;
+    position: relative;
+    overflow: hidden;
+  
+  }
+
+  .itemnfo  {
+    font-size: 14px;
+    color: #666;
+    margin-top: 15px;
+   
+  }
+  .itemdesc{
+    margin-top: 5px;
+    text-overflow: -o-ellipsis-lastline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+  .infobottom {
+    margin-top: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+  }
+
+  .infobottom .itemprice {
+    color: orangered;
+  }
+  .Calculation{
+      
+      width: 53px;
+      height: 15px;
+      position: absolute;
+      right: 5px;
+      bottom: 0px;
+      text-align: center;
+  }
+  .less{
+      width: 15px;
+      height: 15px;
+      background-color:var(--color-tint);
+      float: left;
+      margin-right: 2px;
+  }
+  .itemcount{
+        width: 15px;
+      height: 15px;
+    
+       float: left;
+       margin-right: 2px;
+  }
+  .add{
+      width: 15px;
+      height: 15px;
+      background-color:var(--color-tint); 
+       float: left;
+  }

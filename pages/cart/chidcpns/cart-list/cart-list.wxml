@@ -1,0 +1,28 @@
+<!--pages/cart/chidcpns/cart-list/cart-list.wxml-->
+
+<view class="cartlist">
+  <view id="shopitem">
+    <view class="itemselector">
+        <click-button class="checkbutton"  data-index="{{index}}"  isChecked="{{checked}}"  bindtap='onCheckClick'></click-button>
+    </view>
+    <view class="itemimg">
+
+      <image src="{{goods.imageURL}}" alt="商品图片"/>
+
+    </view>
+    <view class="iteminfo">
+      <view class="itemtitle">{{goods.title}}</view>
+      <view class="itemdesc">商品描述: {{goods.desc}}</view>
+      <view class="infobottom">
+        <view class="itemprice left">¥{{goods.price}}</view>
+        <view class="Calculation">
+            <view class="less ">-</view>
+                <view class="itemcount">{{goods.count}}</view>
+            <view class="add ">+</view>
+        </view>
+        
+      </view>
+    </view>
+  </view> 
+</view>
+

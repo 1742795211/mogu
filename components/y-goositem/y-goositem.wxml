@@ -1,0 +1,14 @@
+<!--components/y-goositem/y-goositem.wxml-->
+<view class="goodsitem"  bindtap='itemClick'>
+    <image src="{{goodslist.show.img || goodslist.image || goodslist.img}}"  ></image>
+
+    <view class="goodsinfo">
+      <view class="goodstitle">{{goodslist.title}}</view>
+      <view>
+        <text class="price">￥{{goodslist.price}}</text>
+        <image class="icon" src="../../assets/imgs/xingxing.png"></image>
+        <text  class="cfav">{{goodslist.cfav}}</text>
+      </view>
+    </view>
+   
+</view>

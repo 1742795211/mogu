@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+"cat-list":"./chidcpns/cart-list/cart-list",
+"bottom-bar":"./chidcpns/bottom-bar/bottom-bar"
+  },
+  "navigationBarTitleText": "购物车"
+}

@@ -1,0 +1,25 @@
+<!--pages/home/home.wxml-->
+<y-swiper list="{{banners}}"></y-swiper>
+
+<!-- 推荐数据显示 -->
+<y-recommend recommend="{{recommend}}"   ></y-recommend>
+
+<!-- 本周流行 -->
+<view>
+  <image   bindload="handload" style="width:100%" src="../../assets/home/recommend_bg.jpg"> </image>
+</view> 
+<!-- tabcontrol -->
+<y-tabcontrol  id="tabcontrol"  tilte="{{['流行','新款','精选']}}"  bind:tabclick="tabclick"></y-tabcontrol>
+
+
+
+
+<!-- 商品展示 -->
+ <view class="goods">
+   <y-goods goods="{{goods[currentType].list}}"   ></y-goods>
+</view>
+
+<!-- 返回顶部 -->
+<y-backtop  class="y-backtop"     wx:if="{{scrolbacklTop}}"/>
+     
+   

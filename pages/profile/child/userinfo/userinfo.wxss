@@ -1,0 +1,59 @@
+/* pages/profile/child/userinfo/userinfo.wxss */
+  #user-info {
+    background-color: #ff5777;
+    padding: 15px;
+    margin-top: -5px;
+   
+    height: 120rpx;
+  }
+
+  #user-info .privateImage-svg {
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 30px;
+  }
+
+  .left {
+    float: left;
+  }
+
+  #user-info .arrow-svg {
+    width: 11px;
+    height: 22px;
+    margin-top: 18px;
+  }
+  .image{
+    height: 60px;
+    width: 60px;
+  }
+  .xianqin>image{
+     height: 20px;
+    width: 20px;
+  }
+  #user-info .login-info {
+    color: #fff;
+    margin: 10px 0 0 10px;
+  }
+
+  #user-info .login-info .phone {
+    position: relative;
+
+    font-size: 13px;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-weight: 300;
+  }
+
+  #user-info .login-info .phone .icon-mobile {
+    position: absolute;
+    width: 12px;
+    height: 18px;
+    left: -15px;
+    top: 0px;
+  }
+  .xianqin{
+    position: absolute;
+    right: 30rpx;
+    top: 60rpx;
+  }

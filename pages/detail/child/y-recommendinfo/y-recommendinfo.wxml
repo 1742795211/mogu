@@ -1,0 +1,9 @@
+<!--pages/detail/child/y-recommendinfo/y-recommendinfo.wxml-->
+
+<view class='recommend'>
+  <view class='header'>商品推荐</view>
+  <view class='content'>
+    <y-goods goods="{{recommends}}"></y-goods>
+    
+  </view>
+</view>

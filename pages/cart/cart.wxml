@@ -1,0 +1,18 @@
+<!--pages/cart/cart.wxml-->
+<view class='cart'>
+  <scroll-view class="conten" scroll-y>
+    <block wx:for="{{cartList}}" wx:key="index">
+      <cat-list goods="{{item}}"    cartList="{{cartList}}"   bind:parentEvent='listEvent' index="{{index}}"/>
+    </block>
+  </scroll-view>
+
+    <!--结算-->
+   
+   <bottom-bar class="cartbar"
+   selected="{{isSelectAll}}" 
+    price="{{totalPrice}}"
+    counter="{{totalCounter}}"
+   ></bottom-bar> -->
+ 
+</view>
+

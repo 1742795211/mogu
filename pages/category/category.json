@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "y-menu": "./childCpns/y-menu/y-menu",
+    "y-content": "./childCpns/y-content/y-content"
+  },
+  "navigationBarTitleText": "分类"
+}

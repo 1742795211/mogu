@@ -1,0 +1,11 @@
+<!--pages/cart/chidcpns/bottom-bar/bottom-bar.wxml-->
+<view class="cartbar">
+        <view class="checkbuttonview">
+            <click-button></click-button>
+        </view>
+        
+        <view class="hj">合计:{{price}}</view>
+        <view class="sun">
+            <view class="sumview">结算({{counter}})</view>
+        </view>
+    </view>

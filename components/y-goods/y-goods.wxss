@@ -1,0 +1,15 @@
+/* components/y-goods/y-goods.wxss */
+
+.goods{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50rpx;
+
+
+}
+.goods >.item{
+  width: 46%;
+  margin-left: 2%;
+  margin-right: 2%;
+  
+}

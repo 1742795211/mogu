@@ -1,0 +1,38 @@
+.cartbar{
+    display: flex;
+    width: 100%;
+}
+.checkbuttonview{
+    width: 50%;
+    height: 40px;
+    padding-top: 16rpx;
+    padding-left:16rpx; 
+
+}
+.checkbutton{
+    width:20px;
+    height: 20px;
+    
+}
+.hj{
+    width: 25%;
+    text-align:left;
+    line-height: 40px;
+    font-size: 14px;
+}
+ .sun{
+    width: 20%;
+ }
+ .sumview{
+     width: 100%;
+     height: 25px;
+    
+     margin-top: 7px;
+     text-align: center;
+     line-height: 25px;
+     background:#ff5777;
+     border-radius:10px; 
+     font-size: 13px;
+     color: #fff;
+     letter-spacing:3px;
+ }

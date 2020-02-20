@@ -1,0 +1,9 @@
+<!--components/y-tabcontrol/y-tabcontrol.wxml-->
+<view  class="tabcontrol">
+    <block wx:for="{{tilte}}" wx:key="{{index}}" >
+        <view class='item  {{controlindex == index ? "active": " "}}'  bind:tap="click"   data-index="{{index}}">
+       
+        <text> {{item}}</text>
+        </view>
+    </block>
+</view>
